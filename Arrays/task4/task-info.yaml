@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: scores("Itizik")
+  is_correct: false
+- text: scores["Itizik"]
+  is_correct: false
+- text: scores.get("Itizik")
+  is_correct: false
+- text: תשובות 2 ו3 נכונות
+  is_correct: true
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.kt
+  visible: true

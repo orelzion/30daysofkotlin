@@ -1,0 +1,14 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: Haifa
+  is_correct: false
+- text: Jerusalem
+  is_correct: true
+- text: Tel Aviv
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: מה האינדקס של האיבר הראשון במערך?
+files:
+- name: src/Main.kt
+  visible: true

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bbfd0850-4820-4a3f-958e-6b71f793a8fa" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1vGan5goSQ9XZAyqo7JCAgxnsvO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Edu.Author.Name" value="Orelzion" />
+    <property name="Edu.CourseCreator.LastArchiveLocation" value="$USER_HOME$/desktop/Androidoss___30_days_of_Kotlin.zip" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Variables 1/task5/test" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Variables 1/task5/test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainKt">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main.testThatThereIsOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Androidoss_-_30_days_of_Kotlin.Variables_1-task3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="METHOD_NAME" value="testThatThereIsOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Androidoss_-_30_days_of_Kotlin.Variables_2-task1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TaskKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Androidoss_-_30_days_of_Kotlin.hello_world-task1" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TaskKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainKt" />
+        <item itemvalue="Application.MainKt" />
+        <item itemvalue="Application.TaskKt" />
+        <item itemvalue="Application.TaskKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbfd0850-4820-4a3f-958e-6b71f793a8fa" name="Default Changelist" comment="" />
+      <created>1626191042446</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626191042446</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="125" width="1240" height="586" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1626195779889">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="100" y="125" width="1240" height="586" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.25.1440.786@0.25.1440.786" timestamp="1626195779889" />
+    <state width="1398" height="198" key="GridCell.Tab.0.bottom" timestamp="1626791100225">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.786@0.25.1440.786" timestamp="1626700299543" />
+    <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.788@0.25.1440.788" timestamp="1626701758040" />
+    <state width="1398" height="198" key="GridCell.Tab.0.bottom/0.25.1440.797@0.25.1440.797" timestamp="1626791100225" />
+    <state width="1398" height="198" key="GridCell.Tab.0.center" timestamp="1626791100224">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.786@0.25.1440.786" timestamp="1626700299543" />
+    <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.788@0.25.1440.788" timestamp="1626701758038" />
+    <state width="1398" height="198" key="GridCell.Tab.0.center/0.25.1440.797@0.25.1440.797" timestamp="1626791100224" />
+    <state width="1398" height="198" key="GridCell.Tab.0.left" timestamp="1626791100224">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.786@0.25.1440.786" timestamp="1626700299542" />
+    <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.788@0.25.1440.788" timestamp="1626701758038" />
+    <state width="1398" height="198" key="GridCell.Tab.0.left/0.25.1440.797@0.25.1440.797" timestamp="1626791100224" />
+    <state width="1398" height="198" key="GridCell.Tab.0.right" timestamp="1626791100225">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.786@0.25.1440.786" timestamp="1626700299543" />
+    <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.788@0.25.1440.788" timestamp="1626701758039" />
+    <state width="1398" height="198" key="GridCell.Tab.0.right/0.25.1440.797@0.25.1440.797" timestamp="1626791100225" />
+    <state x="229" y="58" key="SettingsEditor" timestamp="1627149618480">
+      <screen x="0" y="25" width="1440" height="797" />
+    </state>
+    <state x="229" y="58" key="SettingsEditor/0.25.1440.797@0.25.1440.797" timestamp="1627149618480" />
+    <state width="367" height="112" key="javadoc.popup.new" timestamp="1626931218907">
+      <screen x="0" y="25" width="1440" height="794" />
+    </state>
+    <state width="367" height="110" key="javadoc.popup.new/0.25.1440.786@0.25.1440.786" timestamp="1626700215530" />
+    <state width="367" height="111" key="javadoc.popup.new/0.25.1440.788@0.25.1440.788" timestamp="1626701704353" />
+    <state width="367" height="112" key="javadoc.popup.new/0.25.1440.794@0.25.1440.794" timestamp="1626931218907" />
+  </component>
+</project>

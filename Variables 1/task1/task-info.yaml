@@ -1,0 +1,14 @@
+type: choice
+is_multiple_choice: false
+options:
+- text: var age = 30
+  is_correct: true
+- text: var age = 23.5
+  is_correct: false
+- text: var age = 32L
+  is_correct: false
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Main.kt
+  visible: true

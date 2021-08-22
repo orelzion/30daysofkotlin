@@ -1,0 +1,50 @@
+{
+  "summary" : "30 יום עם קוטלין, קורס חינמתי מבית אנדרואידוס שיקח אתכם למסע היכרות עם שפת התכנות בה מפתחים אפליקציות לאנדרואיד ב30 יום!",
+  "title" : "Androidoss - 30 days of Kotlin",
+  "authors" : [
+    "Orelzion"
+  ],
+  "programming_language" : "kotlin",
+  "language" : "en",
+  "course_type" : "PyCharm",
+  "items" : [
+    {
+      "title" : "hello_world",
+      "task_list" : [
+        {
+          "name" : "task1",
+          "files" : {
+            "src/Task.kt" : {
+              "name" : "src/Task.kt",
+              "placeholders" : [ ],
+              "is_visible" : true,
+              "text" : "fun main() {\n    println(\"Hello, world!\")\n}"
+            },
+            "test/Tests.kt" : {
+              "name" : "test/Tests.kt",
+              "placeholders" : [ ],
+              "is_visible" : false,
+              "text" : "import org.junit.Assert\nimport org.junit.Test\nimport com.github.stefanbirkner.systemlambda.SystemLambda.*\n\nclass Test {\n    @Test fun testSolution() {\n        val output = tapSystemOut() {\n            main()\n        }\n\n        Assert.assertEquals(\"Hello, world!\", output.trim())\n    }\n}"
+            }
+          },
+          "description_text" : "<html>\n<body dir=\"rtl\">\n    <h1>Hello world</h1>\n\n    <div>\n    איזה כיף! הורדתם והתקנתם את Android Studio ועכשיו תריצו את הקוד הראשון שלכם!\n    <br><br>\n    המטרה בתרגיל הזה היא רק להכיר את סביבת הלימוד שלנו, אתם לא צריכים לעשות הרבה חוץ מלהריץ את הקוד ולראות שהוא אכן רץ.\n        <br><br>\n    רואים את המשולש הירוק הזה מצד שמאל? לחצו עליו ואחר כך על Run TaskKt.\n        <br><br>\n    עכשיו, תיפתח לכם למטה לשונית קטנה שבה יהיה כתוב Hello, World!\n        <br><br>\n    הצלחתם? ברכותי, עשיתם את הצעד הראשון בדרך ללהיות מפתחי אנדרואיד!\n        <br><br>\n    בהצלחה!!\n    </div>\n</body>\n</html>",
+          "description_format" : "HTML",
+          "feedback_link" : {
+            "link_type" : "STEPIK"
+          },
+          "task_type" : "edu"
+        }
+      ],
+      "type" : "lesson"
+    }
+  ],
+  "additional_files" : [
+    {
+      "name" : "build.gradle",
+      "placeholders" : [ ],
+      "is_visible" : true,
+      "text" : "buildscript {\n    ext.kotlin_version = '1.4.10'\n\n    repositories {\n        mavenCentral()\n        \n    }\n\n    dependencies {\n        classpath \"org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version\"\n    }\n}\n\ndef printOutput(def output) {\n    return tasks.create(\"printOutput\") {\n        for (line in output.toString().readLines()) {\n            println \"#educational_plugin\" + line\n        }\n    }\n}\n\nsubprojects {\n    apply plugin: 'application'\n    apply plugin: 'java'\n    apply plugin: 'kotlin'\n\n    sourceCompatibility = 1.8\n\n    repositories {\n        mavenCentral()\n        \n    }\n\n    dependencies {\n        compile \"org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version\"\n        testCompile group: 'junit', name: 'junit', version: '4.12'\n    }\n\n    compileKotlin.destinationDir = compileJava.destinationDir\n\n    compileKotlin {\n        kotlinOptions.jvmTarget = \"1.8\"\n    }\n    compileTestKotlin {\n        kotlinOptions.jvmTarget = \"1.8\"\n    }\n\n    sourceSets {\n        main {\n            kotlin.srcDir 'src'\n            java.srcDir 'src'\n        }\n        test {\n            kotlin.srcDir 'test'\n            java.srcDir 'test'\n        }\n    }\n\n    mainClassName = project.hasProperty(\"mainClass\") ? project.getProperty(\"mainClass\") : \"\"\n    test {\n        outputs.upToDateWhen { false }\n        afterTest { TestDescriptor test, TestResult result ->\n            if (result.resultType == TestResult.ResultType.FAILURE) {\n                def message = result.exception?.message ?: \"Wrong answer\"\n                def lines = message.readLines()\n                println \"#educational_plugin FAILED + \" + lines[0]\n                lines.subList(1, lines.size()).forEach { line ->\n                  println \"#educational_plugin\" + line\n                }\n                // we need this to separate output of different tests\n                println()\n            }\n        }\n    }\n\n    def runOutput = new ByteArrayOutputStream()\n    tasks.run.setStandardOutput(runOutput)\n    tasks.run.doLast { printOutput(runOutput) }\n}\n\nproject(':util') {\n    dependencies {\n        compile group: 'junit', name: 'junit', version: '4.12'\n    }\n}\n\nconfigure(subprojects.findAll {it.name != 'util'}) {\n  dependencies {\n    compile project(':util').sourceSets.main.output\n    testCompile project(':util').sourceSets.test.output\n      testImplementation (\"com.github.stefanbirkner:system-lambda:1.2.0\")\n  }\n}\n"
+    }
+  ],
+  "version" : 11
+}

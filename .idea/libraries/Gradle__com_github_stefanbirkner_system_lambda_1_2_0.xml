@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.stefanbirkner:system-lambda:1.2.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stefanbirkner/system-lambda/1.2.0/949a1f977d7287196301a6ec1ef2214e1c93981d/system-lambda-1.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.stefanbirkner/system-lambda/1.2.0/69a73f20d038f4fb76a3c6eb74d5697d374cfd12/system-lambda-1.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

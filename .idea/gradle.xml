@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Arrays/task1" />
+            <option value="$PROJECT_DIR$/Arrays/task2" />
+            <option value="$PROJECT_DIR$/Arrays/task3" />
+            <option value="$PROJECT_DIR$/Arrays/task4" />
+            <option value="$PROJECT_DIR$/Arrays/task5" />
+            <option value="$PROJECT_DIR$/Conditions/task1" />
+            <option value="$PROJECT_DIR$/Conditions/task2" />
+            <option value="$PROJECT_DIR$/Conditions/task3" />
+            <option value="$PROJECT_DIR$/Conditions/task4" />
+            <option value="$PROJECT_DIR$/Conditions/task5" />
+            <option value="$PROJECT_DIR$/Conditions/task6" />
+            <option value="$PROJECT_DIR$/Hello World/task1" />
+            <option value="$PROJECT_DIR$/Loops/task1" />
+            <option value="$PROJECT_DIR$/Loops/task2" />
+            <option value="$PROJECT_DIR$/Loops/task3" />
+            <option value="$PROJECT_DIR$/Variables 1/task1" />
+            <option value="$PROJECT_DIR$/Variables 1/task2" />
+            <option value="$PROJECT_DIR$/Variables 1/task3" />
+            <option value="$PROJECT_DIR$/Variables 1/task4" />
+            <option value="$PROJECT_DIR$/Variables 1/task5" />
+            <option value="$PROJECT_DIR$/Variables 1/task6" />
+            <option value="$PROJECT_DIR$/Variables 2/task1" />
+            <option value="$PROJECT_DIR$/Variables 2/task2" />
+            <option value="$PROJECT_DIR$/Variables 2/task3" />
+            <option value="$PROJECT_DIR$/Variables 2/task4" />
+            <option value="$PROJECT_DIR$/Variables 2/task5" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

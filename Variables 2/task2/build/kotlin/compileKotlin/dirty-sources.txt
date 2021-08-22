@@ -1,0 +1,1 @@
+/Users/orelzion/git/Androidoss - 30 days of Kotlin/Variables 2/task2/src/Task.kt

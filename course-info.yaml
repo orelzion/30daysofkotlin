@@ -1,0 +1,12 @@
+title: Androidoss - 30 days of Kotlin
+language: English
+summary: 30 יום עם קוטלין, קורס חינמי מבית אנדרואידוס שיקח אתכם למסע היכרות עם שפת
+  התכנות בה מפתחים אפליקציות לאנדרואיד ב30 יום!
+programming_language: Kotlin
+content:
+- Hello World
+- Variables 1
+- Variables 2
+- Conditions
+- Arrays
+- Loops
