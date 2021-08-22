@@ -1,0 +1,1 @@
+/Users/orelzion/git/Androidoss - 30 days of Kotlin/Conditions/task6/src/Task.kt
